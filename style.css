@@ -11,6 +11,23 @@
 	color: #fff;
 }
 
+ul.luban {
+    list-style-type: none;
+}
+
+.luban li a {
+    background: #d2ba75c2;
+    padding: 25px 10px;
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: left;
+    color: #1f1e1e;
+    font-weight: bold;
+}
+
 p.intro {
     font-size: 11px;
     font-style: italic;
