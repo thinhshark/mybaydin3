@@ -11,6 +11,39 @@
 	color: #fff;
 }
 
+p.intro {
+    font-size: 11px;
+    font-style: italic;
+    color: #03A9F4;
+}
+
+.burmese, .zodiac12 {
+    background: #0000004d;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.burmese h7, .zodiac12 h7 {
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #131212;
+    font-size: 11px;
+}
+
+.zodiac12 h7 {
+    background: #00adfd;
+}
+
+.burmese h7{
+	background: #00bcd4ad;
+
+}
+
+.zodiac {
+    width: 70%;
+    margin: auto;
+}
+
 a.category {
     border: 1px solid;
     padding: 5px;
@@ -66,7 +99,7 @@ section
 	justify-content: center;
 	align-items: center;*/
 	text-align: center;
-	z-index: -1;
+	/*z-index: -1;*/
 }
 
 section .star
@@ -192,6 +225,10 @@ section .star.star8
 .service img
 {
 	width: 100%;
+}
+
+.burmese .row ,.zodiac12 .row {
+    margin-top: 15px;
 }
 
 .smallinfo
