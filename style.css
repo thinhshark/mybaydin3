@@ -15,6 +15,11 @@ ul.luban {
     list-style-type: none;
 }
 
+ul.luban img {
+    width: 45px;
+    margin-right: 10px;
+}
+
 .luban li a {
     background: #d2ba75c2;
     padding: 25px 10px;
