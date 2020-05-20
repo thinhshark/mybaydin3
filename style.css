@@ -11,7 +11,27 @@
 	color: #fff;
 }
 
-ul.luban {
+span.title {
+    font-weight: bold;
+    color: orange;
+    font-size: 12px;
+}
+
+.fortune {
+    text-align: left;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.fortune .row {
+    background: #0a024094;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid #258df7;
+}
+
+ul.luban, ul.fortune {
     list-style-type: none;
 }
 
@@ -37,6 +57,8 @@ p.intro {
     font-size: 11px;
     font-style: italic;
     color: #03A9F4;
+    width: 90%;
+    margin: auto;
 }
 
 .burmese, .zodiac12 {
@@ -247,6 +269,10 @@ section .star.star8
 .service img
 {
 	width: 100%;
+}
+
+.fortune img {
+    /* width: 25%; */
 }
 
 .burmese .row ,.zodiac12 .row {
