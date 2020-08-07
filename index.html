@@ -5,8 +5,17 @@
 	<title>myBaydin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	
 	<link rel="stylesheet" href="style.css">
+	<script>
+		$(document).ready(function(){
+		    $('#show-video').click(function() {
+		      $('#hidden-toggle').toggle("slide");
+		    });
+		});
+	</script>
 </head>
 <body>
 <section>
@@ -90,38 +99,67 @@
 			<div class="row">
 				<div class="col-10 offset-1">	
 					<div class="info">
-						<a href="cate1.html"><img src="images/icon1.png" alt=""></a>
+						<a href="cate1.html"><img src="images/icon11.png" alt=""></a>
 					</div>					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-10 offset-1">	
 					<div class="info">
-						<a href="cate2.html"><img src="images/icon2.png" alt=""></a>
+						<a href="cate2.html"><img src="images/icon12.png" alt=""></a>
 					</div>					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-10 offset-1">	
 					<div class="info">
-						<a href="cate3.html"><img src="images/icon3.png" alt=""></a>
+						<a href="cate3.html"><img src="images/icon13.png" alt=""></a>
 					</div>					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-10 offset-1">	
 					<div class="info">
-						<a href="#"><img src="images/icon4.png" alt=""></a>
+						<a href="#"><img src="images/icon14.png" alt=""></a>
 					</div>					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-10 offset-1">	
 					<div class="info">
-						<a href="cate5.html"><img src="images/icon5.png" alt=""></a>
+						<a href="cate5.html"><img src="images/icon6.png" alt=""></a>
 					</div>					
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-10 offset-1">	
+					<div class="info">
+						<a href="#"><img src="images/icon21.png" alt=""></a>
+					</div>					
+				</div>
+			</div>
+			<div class="row" id="show-video">
+				<div class="col-10 offset-1">	
+					<div class="info">
+						<img src="images/icon23.png" alt="">
+					</div>					
+				</div>
+			</div>
+
+
+			<div class="row" id="hidden-toggle" style="display: none;">
+				<div class="col-10 offset-1">
+					<div class="row">	
+						<div class="col-6 videocate"><img src="images/clip-icon.png" alt=""><p>Video categories</p></div>
+						<div class="col-6 videocate"><img src="images/clip-icon.png" alt=""><p>Video categories</p></div>
+					</div>
+					<div class="row">	
+						<div class="col-6 videocate"><img src="images/clip-icon.png" alt=""><p>Video categories</p></div>
+						<div class="col-6 videocate"><img src="images/clip-icon.png" alt=""><p>Video categories</p></div>
+					</div>
+				</div>
+			</div>
+
 			
 		</div>
 	</div> <!-- /service -->

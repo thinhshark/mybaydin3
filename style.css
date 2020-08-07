@@ -11,6 +11,28 @@
 	color: #fff;
 }
 
+#hidden-toggle {
+    background: #ffffff29;
+    border-radius: 12px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 5px 0;
+}
+
+.col-6.videocate {
+    padding: 5px 0 5px 0;
+    border: 1px solid #09405c;
+    border-radius: 10px;
+}
+
+#hidden-toggle img {
+    max-width: 40%;
+}
+
+.videocat{
+	background: #fff;
+}
+
 span.title {
     font-weight: bold;
     color: orange;
