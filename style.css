@@ -11,6 +11,10 @@
 	color: #fff;
 }
 
+.no-padding{
+	padding: 0;
+}
+
 #hidden-toggle {
     background: #ffffff29;
     border-radius: 12px;
